@@ -11,7 +11,7 @@ class Game():
         self.lives = 5
     
     def reset(self):
-        self.life = 5
+        self.lives = 5
         self.current = random.choice(self.phrases)
 
     def play_again_win(self, win):  
